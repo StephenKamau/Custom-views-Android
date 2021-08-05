@@ -10,7 +10,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         val colorSelector: ColorSelector = findViewById(R.id.colorSelector)
-        colorSelector.setListener { color->
+        colorSelector.setListener { color ->
             Snackbar.make(
                 this@MainActivity,
                 findViewById(R.id.colorSelector),
@@ -18,6 +18,18 @@ class MainActivity : AppCompatActivity() {
                 Snackbar.LENGTH_LONG
             ).setBackgroundTint(color)
                 .show()
+        }
+        val colorSlider: ColorSlider = findViewById(R.id.colorPicker)
+        colorSlider.addListener { color ->
+            if (color != android.R.color.transparent) {
+                Snackbar.make(
+                    this@MainActivity,
+                    findViewById(R.id.colorSelector),
+                    "Color received",
+                    Snackbar.LENGTH_LONG
+                ).setBackgroundTint(color)
+                    .show()
+            }
         }
     }
 }
