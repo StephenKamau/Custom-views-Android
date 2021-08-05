@@ -8,5 +8,5 @@ Color picker using custom views on Android using Kotlin.
 
  ## Illustration
 
- | <img src="image.png" width=150/> |
+ | <img src="image.png" width=300/> |
  | :------------------------------: |
