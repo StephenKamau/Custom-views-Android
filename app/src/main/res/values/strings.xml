@@ -1,11 +1,25 @@
 <resources>
     <string name="app_name">CustomView</string>
     <string-array name="color_array">
-        <item>#ee6002</item>
-        <item>#ef0078</item>
-        <item>#021aee</item>
-        <item>#3c3c3c</item>
-        <item>#ee0202</item>
-        <item>#02eeee</item>
+        <item>#D50000</item>
+        <item>#C51162</item>
+        <item>#AA00FF</item>
+        <item>#6200EA</item>
+        <item>#304FFE</item>
+        <item>#2962FF</item>
+        <item>#0091EA</item>
+        <item>#00B8D4</item>
+        <item>#00BFA5</item>
+        <item>#00C853</item>
+        <item>#64DD17</item>
+        <item>#AEEA00</item>
+        <item>#FFD600</item>
+        <item>#FFAB00</item>
+        <item>#FF6D00</item>
+        <item>#DD2C00</item>
+        <item>#3E2723</item>
+        <item>#212121</item>
+        <item>#263238</item>
+        <item>#000000</item>
     </string-array>
 </resources>
