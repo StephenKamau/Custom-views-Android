@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">CustomView</string>
+    <string-array name="color_array">
+        <item>#ee6002</item>
+        <item>#ef0078</item>
+        <item>#021aee</item>
+        <item>#3c3c3c</item>
+        <item>#ee0202</item>
+        <item>#02eeee</item>
+    </string-array>
+</resources>
